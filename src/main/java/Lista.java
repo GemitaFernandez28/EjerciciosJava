@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Representacion de una lista, la cual tieen varias funcionalidades.
+ * Representacion de una lista, la cual tienen varias funcionalidades.
  * Una lista con una cierta capacidad, el cual registra la cantidad de espacios usados.
  *
  * @author Gemi
