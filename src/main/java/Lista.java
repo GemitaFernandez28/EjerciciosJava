@@ -116,7 +116,7 @@ public class Lista {
     public void ordena(int orden) {
         switch (orden) {
             default:
-            case 1: // mayor a menor
+            case 1: // menor a mayor
                 for (int i = 0; i < tamano; i++) {
                     for (int j = 0; j < tamano; j++) {
                         if (lista[i] >= lista[j] && i < j) {
@@ -128,7 +128,7 @@ public class Lista {
                     }
                 }
                 break;
-            case 0: // menor a mayor
+            case 0: //de mayor a menor
                 for (int i = 0; i < tamano; i++) {
                     for (int j = 0; j < tamano; j++) {
                         if (lista[i] >= lista[j]) {
